@@ -1,0 +1,756 @@
+@import "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Alata&display=swap";
+.py_headerLink {
+  color: #000000;
+  margin-right: 20px;
+}
+.py_headerLink:hover {
+  color: #5c86e4;
+}
+
+.py_TryItNow {
+  background-color: #5c86e4 !important;
+  padding: 10px 4rem;
+  margin-left: 10px;
+  border-radius: 30px !important;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+.py_TryItNow:hover {
+  background-color: #91aff0 !important;
+}
+
+.py_Header .logo-text {
+  color: #161616;
+  font-family: Alata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+
+.py_Web-slider {
+  background-image: url("/images/slider-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.py_Web-slider .py_Slider-content {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.py_Web-slider .title {
+  color: #161616;
+  text-align: center;
+  font-family: Akshar;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.py_Web-slider .content {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.py_Web-slider .py_sliderButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.py_Web-slider .py_sliderButtons .py_freeTrial {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 4rem;
+  border-radius: 30px !important;
+  font-weight: 800;
+}
+.py_Web-slider .py_sliderButtons .py_freeTrial:hover {
+  background-color: #00d95f !important;
+  border: 1px solid #00d95f;
+}
+
+.py_Web-Teams {
+  padding: 90px;
+}
+.py_Web-Teams .py_Slider-content {
+  margin-top: 50px;
+}
+.py_Web-Teams .title {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.py_Web-Teams .content {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.py_Web-Teams .py_sliderButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.py_Web-Teams .py_sliderButtons .py_freeTrial {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 8px 4rem;
+  border-radius: 30px !important;
+}
+.py_Web-Teams .py_sliderButtons .py_freeTrial:hover {
+  background-color: #00d95f !important;
+  border: 1px solid #00d95f;
+}
+
+.py_Web-section-msps {
+  padding: 140px 50px 80px 50px;
+  background-image: url("/images/spaces-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.py_Web-section-msps .shapes-box {
+  margin-top: 3rem;
+}
+.py_Web-section-msps .title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
+.py_Web-section-msps .content {
+  color: #fff;
+  text-align: justify;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.py_Web-section-msps .numbers {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  color: #66ff84;
+  margin-top: 30px;
+}
+.py_Web-section-msps .services-box {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 20px !important;
+}
+.py_Web-section-msps .services-box .services-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.py_Web-section-msps .services-box .services-title-2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(15, 32, 74);
+}
+.py_Web-section-msps .services-box .content {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.py_Web-section-services {
+  padding: 80px 50px;
+  background: rgb(255, 255, 255);
+}
+.py_Web-section-services .services-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.py_Web-section-services .title {
+  color: #161616;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
+.py_Web-section-services .subtitle {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: rgb(15, 32, 74);
+}
+.py_Web-section-services .content {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(15, 32, 74);
+}
+.py_Web-section-services .numbers {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  color: #66ff84;
+  margin-top: 30px;
+}
+.py_Web-section-services .services-box {
+  padding: 20px;
+  border: 1px solid rgb(15, 32, 74);
+  border-radius: 5px;
+  margin-top: 20px !important;
+}
+.py_Web-section-services .services-box .services-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(15, 32, 74);
+  margin-bottom: 0;
+}
+.py_Web-section-services .services-box .services-title-2 {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #0f204a;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.py_Web-section-services .services-box .content {
+  margin-top: 15px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0f204a;
+}
+
+.py_Web-section-single {
+  padding: 80px 50px;
+  background-image: url("/images/services-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.py_Web-section-single .title {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.py_Web-section-single .subtitle {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.py_Web-section-single .content {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.py_Web-section-single .numbers {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 82px;
+  color: #66ff84;
+}
+.py_Web-section-single .services-box {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 20px !important;
+}
+.py_Web-section-single .services-box .services-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.py_Web-section-single .services-box .services-title-2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(15, 32, 74);
+}
+.py_Web-section-single .services-box .content {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.py_Web-section-modernize {
+  padding: 80px 50px;
+  background: #ffffff;
+}
+.py_Web-section-modernize .title {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #001824;
+}
+.py_Web-section-modernize .subtitle {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.py_Web-section-modernize .content {
+  margin-top: 30px;
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.py_Web-section-modernize .numbers {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 82px;
+  color: #66ff84;
+}
+.py_Web-section-modernize .services-box {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 20px !important;
+}
+.py_Web-section-modernize .services-box .services-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.py_Web-section-modernize .services-box .services-title-2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(15, 32, 74);
+}
+.py_Web-section-modernize .services-box .content {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.py_sliderButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.py_sliderButtons .py_freeTrial {
+  background-color: transparent;
+  color: rgb(15, 32, 74);
+  border: 1px solid rgb(15, 32, 74);
+  padding: 8px 4rem;
+  border-radius: 5px;
+}
+.py_sliderButtons .py_freeTrial:hover {
+  background-color: #00d95f !important;
+  border: 1px solid #00d95f;
+}
+
+.py_Web-Year {
+  padding: 50px;
+  background: #f2e6dc;
+}
+.py_Web-Year .single-pane {
+  background-color: #fff6ef;
+  border-radius: 20px;
+  padding: 80px;
+}
+.py_Web-Year .py_Slider-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.py_Web-Year .title {
+  font-family: "Akshar";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.py_Web-Year .content {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.py_Web-Year .py_sliderButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.py_Web-Year .py_sliderButtons .py_freeTrial {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 8px 4rem;
+  border-radius: 30px !important;
+}
+.py_Web-Year .py_sliderButtons .py_freeTrial:hover {
+  background-color: #00d95f !important;
+  border: 1px solid #00d95f;
+}
+
+.py_Web-Ready {
+  padding: 90px;
+}
+.py_Web-Ready .title {
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.py_Web-Ready .content {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.py_Web-Ready .py_TryItNow {
+  margin-left: -1px;
+}
+.py_Web-Ready .py_sliderButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.py_Web-Ready .py_sliderButtons .py_freeTrial {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 8px 4rem;
+  border-radius: 5px;
+}
+.py_Web-Ready .py_sliderButtons .py_freeTrial:hover {
+  background-color: #00d95f !important;
+  border: 1px solid #00d95f;
+}
+
+.py_Web-footer {
+  padding: 90px;
+  background-color: #001824;
+}
+.py_Web-footer .title {
+  color: #ffffff;
+}
+.py_Web-footer .content {
+  color: #ffffff;
+}
+.py_Web-footer .py-link {
+  color: #00d95f;
+  text-decoration: none;
+}
+.py_Web-footer .py-Newsletter-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+.py_Web-footer .py-newsletter {
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+  text-align: start;
+}
+.py_Web-footer .py-newsletter-input {
+  background: transparent;
+  border: 1px solid #ffffff;
+  padding: 8px 6rem 8px 1rem;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.py_Web-footer .py-newsletter-input::-moz-placeholder {
+  color: #ffffff;
+}
+.py_Web-footer .py-newsletter-input::placeholder {
+  color: #ffffff;
+}
+
+.py_Web-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0;
+}
+.py_Web-Form .hood {
+  margin-bottom: 40px;
+}
+.py_Web-Form .hood .title {
+  font-weight: 600;
+}
+.py_Web-Form .hood .content {
+  color: rgb(116, 116, 116);
+}
+.py_Web-Form .py_form-content {
+  padding: 0 50px;
+  text-align: start;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+#pageMessages {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 30%;
+}
+
+.alert {
+  position: relative;
+}
+.alert .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1em;
+}
+.alert .fa {
+  margin-right: 0.3em;
+}
+
+.py_footer-pages {
+  display: flex;
+  flex-direction: column;
+}
+.py_footer-pages a {
+  text-decoration: none;
+}
+
+.py_Document-section .py_Document {
+  padding: 60px 20px;
+}
+.py_Document-section .py_Document .title {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.shapes-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .latest {
+    margin-top: 50px !important;
+  }
+  .modernize {
+    margin-top: 40px !important;
+  }
+  .modernize .title {
+    margin-bottom: 0 !important;
+  }
+  .py_Web-section-msps {
+    padding: 40px 20px 40px 20px;
+  }
+  .py_Web-section-msps .title {
+    font-size: 45px;
+  }
+  .py_Web-section-msps .numbers {
+    font-size: 76px;
+    line-height: 62px;
+  }
+  .py_Web-section-services {
+    padding: 40px 20px 40px 20px;
+  }
+  .py_Web-section-services .title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .py_Web-section-modernize {
+    padding: 20px 20px 40px 20px;
+  }
+  .py_Web-section-modernize .title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .py_Web-section-modernize .py_sliderButtons {
+    flex-direction: column;
+  }
+  .py_Web-section-single {
+    padding: 20px 20px 40px 20px;
+  }
+  .py_Web-section-single .title {
+    font-size: 48px;
+  }
+  .py_Web-section-single .subtitle {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .py_Web-section-single .numbers {
+    font-size: 40px;
+  }
+  .py_Web-section-single .py_sliderButtons {
+    flex-direction: column;
+  }
+  .py_Web-section-single .service-img {
+    width: 100%;
+  }
+  .py_Web-slider {
+    padding: 20px 20px 40px 20px;
+    height: 80vh;
+  }
+  .py_Web-slider .py_Slider-content {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .py_Web-slider .py_Slider-content .py_sliderButtons {
+    flex-direction: column;
+  }
+  .nav-pills {
+    justify-content: center;
+  }
+  .py_Web-Teams {
+    padding: 20px 20px 40px 20px;
+  }
+  .tech-img {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .py_Web-Year {
+    padding: 40px 20px 40px 20px;
+  }
+  .py_Web-Year .single-pane {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .py_Web-Year .content {
+    margin-bottom: 1.5rem !important;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .py_Web-Ready {
+    padding: 20px;
+  }
+  .ready-img {
+    margin: 40px 0 !important;
+  }
+  .hide-ready-img {
+    display: none;
+  }
+  .py_Web-footer {
+    padding: 30px 20px;
+  }
+  .py-Newsletter-box {
+    margin-left: 0 !important;
+    margin-top: 50px;
+  }
+  .newsletter-boxs {
+    flex-direction: column;
+  }
+  .newsletter-boxs .py_TryItNow {
+    margin-left: 0;
+  }
+  .py_Web-Form .py_form-content {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="TechFordem" />
+    <meta name="keywords" content="Payecards" />
+    <title>TechFordem</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/techfordem-favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="py_Header">
+      <div class="container-fluid">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 border-bottom"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+          >
+            <div style="width: 180px; margin-left: 20px">
+              <img src="/images/logo.png" alt="img" width="100%" />
+            </div>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="tel:+254811231053" class="nav-link py_headerLink"
+                >+254811231053</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link py_headerLink">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link active py_TryItNow"
+                aria-current="page"
+                >Try it now</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://techfordem.org/shop/my_account/"
+                class="nav-link active py_TryItNow"
+                aria-current="page"
+                style="padding: 7px 3rem"
+                >Login / Register</a
+              >
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <div id="pageMessages"></div>
+
+    <section class="py_Web-Form">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <div class="hood">
+              <h2 class="title">
+                Start a Free Trial of the #1 RMM on G2 Crowd
+              </h2>
+              <h6 class="content">
+                No credit card required, full access to all features.
+              </h6>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="py_form-box">
+              <form class="needs-validation">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder="First Name"
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder="Last name"
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="companyName"
+                      placeholder="Company Name"
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid company name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Business Email"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="phoneNumber"
+                      placeholder="Phone Number"
+                      value=""
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Valid phone number is required.
+                    </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>Kenya</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>Baragoi</option>
+                      <option>Bungoma</option>
+                      <option>Busia</option>
+                      <option>Dadaab</option>
+                      <option>Diani Beach</option>
+                      <option>Eldoret</option>
+                      <option>Embu</option>
+                      <option>Garissa</option>
+                      <option>Gede</option>
+                      <option>Hola</option>
+                      <option>Homa Bay</option>
+                      <option>Isiolo</option>
+                      <option>Kakamega</option>
+                      <option>Kisumu</option>
+                      <option>Malindi</option>
+                      <option>Mombasa</option>
+                      <option>Nairobi</option>
+                      <option>Nakuru</option>
+                      <option>Nyeri</option>
+                      <option>Voi</option>
+                      <option>Wundanyi</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zip"
+                      placeholder=""
+                      required
+                    />
+                    <div class="invalid-feedback">Zip code required.</div>
+                  </div>
+                </div>
+              </form>
+              <button
+                class="w-100 btn btn-lg mt-4"
+                style="background: #ff5c00; color: #ffffff; font-size: 17px"
+                type="submit"
+                onclick="createAlert('','Successful!','Your form has been successfully submitted. We will reach you!','success',true,true,'pageMessages');"
+              >
+                START MY FREE TRIAL NOW
+              </button>
+
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div
+                  class="ready-img"
+                  style="max-width: 500px; margin-top: 20px"
+                >
+                  <img src="/images/ready-img-2.png" alt="img" width="100%" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="py_form-content">
+              <div class="py-formBox">
+                <h4 class="title">What MSPs are saying about TechFordem</h4>
+                <p class="title" style="color: #ff5c00; font-weight: 600">
+                  Finally! Efficient IT and Network Management!!
+                </p>
+                <p class="content">
+                  Fast access to my customer machines and machine data;
+                  excellent BIG PICTURE of my customers and their sites. I save
+                  time not having to ask customers for information, also not
+                  having to hunt for information.
+                </p>
+              </div>
+              <hr class="mt-5 mb-5" />
+              <div class="py-formBox">
+                <blockquote
+                  class="title"
+                  style="color: #ff5c00; font-weight: 600"
+                >
+                  Switching to TechFordem was one of the best decisions we have
+                  ever made as a company.
+                </blockquote>
+                <p class="content">
+                  Ease of use, the layout and design are intuitive and both easy
+                  to learn and teach, but it is also a very powerful tool to
+                  have at your fingertips… The online community is very active
+                  and the key people at TechFordem are right there just as
+                  involved and always ready to listen to new ideas.
+                </p>
+              </div>
+              <hr class="mt-5 mb-5" />
+              <div class="py-formBox">
+                <blockquote
+                  class="title"
+                  style="color: #ff5c00; font-weight: 600"
+                >
+                  By far the best RMM system currently available.
+                </blockquote>
+                <p class="content">
+                  It’s beautiful & intuitive. Fully SaaS. Easy to use. Excellent
+                  automation functionality. We're currently using TechFordem to
+                  automatically detect/remediate a whole host of issues!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py_Web-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div>
+              <p class="title">
+                Actus technology limited is a global IT company, based in
+                Mombasa, Kenya. The company engages in various IT activities,
+                including developing software and designing intelligent IT
+                solutions. Actus technology limited works in partnership with
+                several companies in the IT sector, locally and internationally.
+                Actus technology limited assists and works with international
+                companies to deliver intelligent, easy, and user-friendly IT
+                solutions to its clients.Actus Technology Limited.
+              </p>
+              <p class="content">
+                <strong>Address: </strong>
+                <a
+                  class="py-link"
+                  href="address:Mombasa Maldini Highway, building: 197/Bombolulu"
+                  >Mombasa Maldini Highway, building: 197/Bombolulu</a
+                >
+              </p>
+              <p class="content">
+                <strong>Email: </strong>
+                <a class="py-link" href="mail:info@techfordem.org"
+                  >info@techfordem.org</a
+                >
+              </p>
+              <p class="content">
+                <strong>Telephone: </strong>
+                <a class="py-link" href="tel:+254811231053">+254811231053</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <div class="py-Newsletter-box">
+              <p class="py-newsletter">
+                Never Miss Out - Subscribe <br />
+                to the TechFordem Newsletter
+              </p>
+              <div
+                class="newsletter-boxs"
+                style="display: flex; align-items: center; gap: 10px"
+              >
+                <input
+                  class="py-newsletter-input"
+                  placeholder="Email"
+                  type="text"
+                />
+                <a
+                  href="javascript:void(0)"
+                  class="nav-link active py_TryItNow"
+                  aria-current="page"
+                  onclick="createAlert('','Subscribed!','Congratulations, you have subscribed to the newsletter','success',true,true,'pageMessages');"
+                  >Try it now</a
+                >
+              </div>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-top: 15px;
+                "
+              >
+                <input
+                  style="margin-top: -20px"
+                  type="checkbox"
+                  name=""
+                  id=""
+                />
+                <p
+                  style="
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #ffffff;
+                  "
+                >
+                  I agree to be contacted by email or phone to receive
+                  information about TechFordem <br class="mobile-hide" />
+                  product, offers, and events. I understand I can unsubscribe at
+                  any time.
+                </p>
+              </div>
+              <div class="py_footer-pages">
+                <a href="privacy.html">
+                  <p class="mt-3" style="color: #ff5c00">Privacy Policy</p>
+                </a>
+                <a href="products.html">
+                  <p style="color: #ff5c00">Products and Services T&C</p>
+                </a>
+                <a href="terms.html">
+                  <p style="color: #ff5c00">Terms Conditions</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12">
+            <hr
+              style="
+                border: 0.5px solid #ff5c00;
+                opacity: 1;
+                margin-top: 30px;
+                margin-bottom: 30px;
+              "
+            />
+            <p style="color: #ffffff">© Copyright TechFordem |</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script src="./javascript/javascript.js"></script>
+  </body>
+</html>
