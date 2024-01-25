@@ -26,743 +26,735 @@ $background-color_6: #001824;
 @import "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Alata&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 
 .py_headerLink {
-	color: $color_1;
-	margin-right: 20px;
-	&:hover {
-		color: $color_2;
-	}
+  color: $color_1;
+  margin-right: 20px;
+  &:hover {
+    color: $color_2;
+  }
 }
 .py_TryItNow {
-	background-color: $background-color_1 !important;
-	padding: 10px 4rem;
-	margin-left: 10px;
-	border-radius: 30px !important;
-	color: $color_3 !important;
-	font-weight: 800;
-	&:hover {
-		background-color: $background-color_2 !important;
-	}
+  background-color: $background-color_1 !important;
+  padding: 10px 4rem;
+  margin-left: 10px;
+  border-radius: 30px !important;
+  color: $color_3 !important;
+  font-weight: 800;
+  &:hover {
+    background-color: $background-color_2 !important;
+  }
 }
 .py_Header {
-	.logo-text {
-		color: $color_4;
-		font-family: $font-family_1;
-		font-size: 30px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-		text-transform: lowercase;
-	}
+  .logo-text {
+    color: $color_4;
+    font-family: $font-family_1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+  }
 }
 .py_Web-slider {
-	background-image: url("/images/slider-bg.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	.py_Slider-content {
-		margin-top: -50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-	.title {
-		color: $color_4;
-		text-align: center;
-		font-family: $font-family_2;
-		font-size: 60px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: 1.2;
-		text-transform: capitalize;
-	}
-	.content {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 100;
-		font-size: 24px;
-		line-height: 29px;
-		text-align: center;
-		color: $color_1;
-	}
-	.py_sliderButtons {
-		display: flex;
-		align-items: center;
-		gap: 15px;
-		.py_freeTrial {
-			background-color: $background-color_3;
-			color: $color_1;
-			border: 1px solid #000000;
-			padding: 10px 4rem;
-			border-radius: 30px !important;
-			font-weight: 800;
-			&:hover {
-				background-color: $background-color_4 !important;
-				border: 1px solid #00d95f;
-			}
-		}
-	}
+  background-image: url("/images/slider-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .py_Slider-content {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title {
+    color: $color_4;
+    text-align: center;
+    font-family: $font-family_2;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .content {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: $color_1;
+  }
+  .py_sliderButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .py_freeTrial {
+      background-color: $background-color_3;
+      color: $color_1;
+      border: 1px solid #000000;
+      padding: 10px 4rem;
+      border-radius: 30px !important;
+      font-weight: 800;
+      &:hover {
+        background-color: $background-color_4 !important;
+        border: 1px solid #00d95f;
+      }
+    }
+  }
 }
 .py_Web-Teams {
-	padding: 90px;
-	.py_Slider-content {
-		margin-top: 50px;
-	}
-	.title {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 41px;
-		color: $color_1;
-	}
-	.content {
-		font-family: $font-family_4;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 19px;
-		color: $color_1;
-	}
-	.py_sliderButtons {
-		display: flex;
-		align-items: center;
-		gap: 15px;
-		.py_freeTrial {
-			background-color: $background-color_3;
-			color: $color_1;
-			border: 1px solid #000000;
-			padding: 8px 4rem;
-			border-radius: 30px !important;
-			&:hover {
-				background-color: $background-color_4 !important;
-				border: 1px solid #00d95f;
-			}
-		}
-	}
+  padding: 90px;
+  .py_Slider-content {
+    margin-top: 50px;
+  }
+  .title {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: $color_1;
+  }
+  .content {
+    font-family: $font-family_4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color_1;
+  }
+  .py_sliderButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .py_freeTrial {
+      background-color: $background-color_3;
+      color: $color_1;
+      border: 1px solid #000000;
+      padding: 8px 4rem;
+      border-radius: 30px !important;
+      &:hover {
+        background-color: $background-color_4 !important;
+        border: 1px solid #00d95f;
+      }
+    }
+  }
 }
 .py_Web-section-msps {
-	padding: 140px 50px 80px 50px;
-	background-image: url("/images/spaces-bg.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 80vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	.shapes-box {
-		margin-top: 3rem;
-	}
-	.title {
-		color: $color_5;
-		font-family: $font-family_5;
-		font-size: 40px;
-		font-style: normal;
-		font-weight: 1000;
-		line-height: normal;
-	}
-	.content {
-		color: $color_5;
-		text-align: justify;
-		font-family: $font-family_5;
-		font-size: 20px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-	}
-	.numbers {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 100px;
-		line-height: 110px;
-		color: $color_6;
-		margin-top: 30px;
-	}
-	.services-box {
-		padding: 20px;
-		border: 1px solid #ffffff;
-		border-radius: 5px;
-		margin-top: 20px !important;
-		.services-title {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_3;
-			margin-bottom: 0;
-		}
-		.services-title-2 {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_7;
-		}
-		.content {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 18px;
-			color: $color_3;
-		}
-	}
+  padding: 140px 50px 80px 50px;
+  background-image: url("/images/spaces-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .shapes-box {
+    margin-top: 3rem;
+  }
+  .title {
+    color: $color_5;
+    font-family: $font-family_5;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+  }
+  .content {
+    color: $color_5;
+    text-align: justify;
+    font-family: $font-family_5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .numbers {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    color: $color_6;
+    margin-top: 30px;
+  }
+  .services-box {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    .services-title {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_3;
+      margin-bottom: 0;
+    }
+    .services-title-2 {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_7;
+    }
+    .content {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      color: $color_3;
+    }
+  }
 }
 .py_Web-section-services {
-	padding: 80px 50px;
-	background: rgb(255, 255, 255);
-	.services-title {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-	.title {
-		color: $color_4;
-		text-align: center;
-		font-family: $font-family_5;
-		font-size: 40px;
-		font-style: normal;
-		font-weight: 1000;
-		line-height: normal;
-	}
-	.subtitle {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 33px;
-		color: $color_7;
-	}
-	.content {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 20px;
-		color: $color_7;
-	}
-	.numbers {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 100px;
-		line-height: 110px;
-		color: $color_6;
-		margin-top: 30px;
-	}
-	.services-box {
-		padding: 20px;
-		border: 1px solid rgb(15, 32, 74);
-		border-radius: 5px;
-		margin-top: 20px !important;
-		.services-title {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_7;
-			margin-bottom: 0;
-		}
-		.services-title-2 {
-			font-family: $font-family_3;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 26px;
-			color: $color_8;
-			margin-bottom: 0;
-			padding-bottom: 0;
-		}
-		.content {
-			margin-top: 15px;
-			font-family: $font-family_3;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 16px;
-			line-height: 18px;
-			color: $color_8;
-		}
-	}
+  padding: 80px 50px;
+  background: rgb(255, 255, 255);
+  .services-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title {
+    color: $color_4;
+    text-align: center;
+    font-family: $font-family_5;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+  }
+  .subtitle {
+    margin-top: 30px;
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: $color_7;
+  }
+  .numbers {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    color: $color_6;
+    margin-top: 30px;
+  }
+  .services-box {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    img {
+      max-height: 240px;
+    }
+    .services-title {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_7;
+      margin-bottom: 0;
+    }
+    .services-title-2 {
+      color: #161616;
+      font-family: Akshar;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    .content {
+      color: #161616;
+      font-family: Actor;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
 }
 .py_Web-section-single {
-	padding: 80px 50px;
-	background-image: url("/images/services-bg.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	.title {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 60px;
-		line-height: 66px;
-		text-transform: uppercase;
-		color: $color_3;
-	}
-	.subtitle {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 300;
-		font-size: 30px;
-		line-height: 33px;
-		color: $color_3;
-	}
-	.content {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 20px;
-		color: $color_3;
-	}
-	.numbers {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 60px;
-		line-height: 82px;
-		color: $color_6;
-	}
-	.services-box {
-		padding: 20px;
-		border: 1px solid #ffffff;
-		border-radius: 5px;
-		margin-top: 20px !important;
-		.services-title {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_3;
-			margin-bottom: 0;
-		}
-		.services-title-2 {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_7;
-		}
-		.content {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 18px;
-			color: $color_3;
-		}
-	}
+  padding: 80px 50px;
+  background-image: url("/images/services-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .title {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: $color_3;
+  }
+  .subtitle {
+    margin-top: 30px;
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    color: $color_3;
+  }
+  .content {
+    margin-top: 30px;
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $color_3;
+  }
+  .numbers {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 82px;
+    color: $color_6;
+  }
+  .services-box {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    .services-title {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_3;
+      margin-bottom: 0;
+    }
+    .services-title-2 {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_7;
+    }
+    .content {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      color: $color_3;
+    }
+  }
 }
 .py_Web-section-modernize {
-	padding: 80px 50px;
-	background: #ffffff;
-	.title {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 60px;
-		line-height: 66px;
-		text-align: center;
-		text-transform: uppercase;
-		color: $color_9;
-	}
-	.subtitle {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 300;
-		font-size: 30px;
-		line-height: 33px;
-		color: $color_3;
-	}
-	.content {
-		margin-top: 30px;
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 20px;
-		color: $color_3;
-	}
-	.numbers {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 60px;
-		line-height: 82px;
-		color: $color_6;
-	}
-	.services-box {
-		padding: 20px;
-		border: 1px solid #ffffff;
-		border-radius: 5px;
-		margin-top: 20px !important;
-		.services-title {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_3;
-			margin-bottom: 0;
-		}
-		.services-title-2 {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 24px;
-			line-height: 30px;
-			color: $color_7;
-		}
-		.content {
-			font-family: $font-family_6;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 18px;
-			color: $color_3;
-		}
-	}
+  padding: 80px 50px;
+  background: #ffffff;
+  .title {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color_9;
+  }
+  .subtitle {
+    margin-top: 30px;
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    color: $color_3;
+  }
+  .content {
+    margin-top: 30px;
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $color_3;
+  }
+  .numbers {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 82px;
+    color: $color_6;
+  }
+  .services-box {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    .services-title {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_3;
+      margin-bottom: 0;
+    }
+    .services-title-2 {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color_7;
+    }
+    .content {
+      font-family: $font-family_6;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      color: $color_3;
+    }
+  }
 }
 .py_sliderButtons {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-	.py_freeTrial {
-		background-color: $background-color_3;
-		color: $color_7;
-		border: 1px solid rgb(15, 32, 74);
-		padding: 8px 4rem;
-		border-radius: 5px;
-		&:hover {
-			background-color: $background-color_4 !important;
-			border: 1px solid #00d95f;
-		}
-	}
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  .py_freeTrial {
+    background-color: $background-color_3;
+    color: $color_7;
+    border: 1px solid rgb(15, 32, 74);
+    padding: 8px 4rem;
+    border-radius: 5px;
+    &:hover {
+      background-color: $background-color_4 !important;
+      border: 1px solid #00d95f;
+    }
+  }
 }
 .py_Web-Year {
-	padding: 50px;
-	background: #f2e6dc;
-	.single-pane {
-		background-color: $background-color_5;
-		border-radius: 20px;
-		padding: 80px;
-	}
-	.py_Slider-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.title {
-		font-family: $font-family_3;
-		font-style: normal;
-		font-weight: 800;
-		font-size: 30px;
-		line-height: 41px;
-		color: $color_1;
-	}
-	.content {
-		font-family: $font-family_4;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 19px;
-		color: $color_1;
-	}
-	.py_sliderButtons {
-		display: flex;
-		align-items: center;
-		gap: 15px;
-		.py_freeTrial {
-			background-color: $background-color_3;
-			color: $color_1;
-			border: 1px solid #000000;
-			padding: 8px 4rem;
-			border-radius: 30px !important;
-			&:hover {
-				background-color: $background-color_4 !important;
-				border: 1px solid #00d95f;
-			}
-		}
-	}
+  padding: 50px;
+  background: #f2e6dc;
+  .single-pane {
+    background-color: $background-color_5;
+    border-radius: 20px;
+    padding: 80px;
+  }
+  .py_Slider-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-family: $font-family_3;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: $color_1;
+  }
+  .content {
+    font-family: $font-family_4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color_1;
+  }
+  .py_sliderButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .py_freeTrial {
+      background-color: $background-color_3;
+      color: $color_1;
+      border: 1px solid #000000;
+      padding: 8px 4rem;
+      border-radius: 30px !important;
+      &:hover {
+        background-color: $background-color_4 !important;
+        border: 1px solid #00d95f;
+      }
+    }
+  }
 }
 .py_Web-Ready {
-	padding: 90px;
-	.title {
-		font-family: $font-family_7;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 41px;
-		color: $color_1;
-	}
-	.content {
-		font-family: $font-family_4;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 19px;
-		color: $color_1;
-	}
-	.py_TryItNow {
-		margin-left: -1px;
-	}
-	.py_sliderButtons {
-		display: flex;
-		align-items: center;
-		gap: 15px;
-		.py_freeTrial {
-			background-color: $background-color_3;
-			color: $color_1;
-			border: 1px solid #000000;
-			padding: 8px 4rem;
-			border-radius: 5px;
-			&:hover {
-				background-color: $background-color_4 !important;
-				border: 1px solid #00d95f;
-			}
-		}
-	}
+  padding: 90px;
+  .title {
+    font-family: $font-family_7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: $color_1;
+  }
+  .content {
+    font-family: $font-family_4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color_1;
+  }
+  .py_TryItNow {
+    margin-left: -1px;
+  }
+  .py_sliderButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .py_freeTrial {
+      background-color: $background-color_3;
+      color: $color_1;
+      border: 1px solid #000000;
+      padding: 8px 4rem;
+      border-radius: 5px;
+      &:hover {
+        background-color: $background-color_4 !important;
+        border: 1px solid #00d95f;
+      }
+    }
+  }
 }
 .py_Web-footer {
-	padding: 90px;
-	background-color: $background-color_6;
-	.title {
-		color: $color_3;
-	}
-	.content {
-		color: $color_3;
-	}
-	.py-link {
-		color: $color_10;
-		text-decoration: none;
-	}
-	.py-Newsletter-box {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		margin-left: 100px;
-	}
-	.py-newsletter {
-		font-family: $font-family_7;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 30px;
-		line-height: 41px;
-		color: $color_3;
-		text-align: start;
-	}
-	.py-newsletter-input {
-		background: transparent;
-		border: 1px solid #ffffff;
-		padding: 8px 6rem 8px 1rem;
-		border-radius: 5px;
-		color: $color_3;
-		&::-moz-placeholder {
-			color: $color_3;
-		}
-		&::placeholder {
-			color: $color_3;
-		}
-	}
+  padding: 90px;
+  background-color: $background-color_6;
+  .title {
+    color: $color_3;
+  }
+  .content {
+    color: $color_3;
+  }
+  .py-link {
+    color: $color_10;
+    text-decoration: none;
+  }
+  .py-Newsletter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .py-newsletter {
+    font-family: $font-family_7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: $color_3;
+    text-align: start;
+  }
+  .py-newsletter-input {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 8px 6rem 8px 1rem;
+    border-radius: 5px;
+    color: $color_3;
+    &::-moz-placeholder {
+      color: $color_3;
+    }
+    &::placeholder {
+      color: $color_3;
+    }
+  }
 }
 .py_Web-Form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	margin: 50px 0;
-	.hood {
-		margin-bottom: 40px;
-		.title {
-			font-weight: 600;
-		}
-		.content {
-			color: $color_11;
-		}
-	}
-	.py_form-content {
-		padding: 0 50px;
-		text-align: start;
-	}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0;
+  .hood {
+    margin-bottom: 40px;
+    .title {
+      font-weight: 600;
+    }
+    .content {
+      color: $color_11;
+    }
+  }
+  .py_form-content {
+    padding: 0 50px;
+    text-align: start;
+  }
 }
 .nav-link {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 #pageMessages {
-	position: fixed;
-	bottom: 15px;
-	right: 15px;
-	width: 30%;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 30%;
 }
 .alert {
-	position: relative;
-	.close {
-		position: absolute;
-		top: 5px;
-		right: 5px;
-		font-size: 1em;
-	}
-	.fa {
-		margin-right: 0.3em;
-	}
+  position: relative;
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1em;
+  }
+  .fa {
+    margin-right: 0.3em;
+  }
 }
 .py_footer-pages {
-	display: flex;
-	flex-direction: column;
-	a {
-		text-decoration: none;
-	}
+  display: flex;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+  }
 }
 .py_Document-section {
-	.py_Document {
-		padding: 60px 20px;
-		.title {
-			font-weight: 600;
-			margin-bottom: 25px;
-		}
-	}
+  .py_Document {
+    padding: 60px 20px;
+    .title {
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+  }
 }
 .shapes-box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 768px) {
-	.latest {
-		margin-top: 50px !important;
-	}
-	.modernize {
-		margin-top: 40px !important;
-		.title {
-			margin-bottom: 0 !important;
-		}
-	}
-	.py_Web-section-msps {
-		.title {
-			font-size: 45px;
-		}
-		.numbers {
-			font-size: 76px;
-			line-height: 62px;
-		}
-		padding: 40px 20px 40px 20px;
-	}
-	.py_Web-section-services {
-		.title {
-			font-size: 40px;
-			line-height: 55px;
-		}
-		padding: 40px 20px 40px 20px;
-	}
-	.py_Web-section-modernize {
-		padding: 20px 20px 40px 20px;
-		.title {
-			font-size: 25px;
-			line-height: 40px;
-		}
-		.py_sliderButtons {
-			flex-direction: column;
-		}
-	}
-	.py_Web-section-single {
-		padding: 20px 20px 40px 20px;
-		.title {
-			font-size: 48px;
-		}
-		.subtitle {
-			font-size: 20px;
-			margin-top: 0;
-		}
-		.numbers {
-			font-size: 40px;
-		}
-		.py_sliderButtons {
-			flex-direction: column;
-		}
-		.service-img {
-			width: 100%;
-		}
-	}
-	.py_Web-slider {
-		padding: 20px 20px 40px 20px;
-		height: 80vh;
-		.py_Slider-content {
-			.py_sliderButtons {
-				flex-direction: column;
-			}
-			margin-top: 50px;
-			margin-bottom: 40px;
-		}
-	}
-	.nav-pills {
-		justify-content: center;
-	}
-	.py_Web-Teams {
-		padding: 20px 20px 40px 20px;
-	}
-	.tech-img {
-		margin-left: 0;
-		margin-top: 30px;
-	}
-	.py_Web-Year {
-		padding: 40px 20px 40px 20px;
-		.single-pane {
-			padding: 20px;
-			margin-top: 20px;
-		}
-		.content {
-			margin-bottom: 1.5rem !important;
-		}
-	}
-	.mobile-hide {
-		display: none;
-	}
-	.py_Web-Ready {
-		padding: 20px;
-	}
-	.ready-img {
-		margin: 40px 0 !important;
-	}
-	.hide-ready-img {
-		display: none;
-	}
-	.py_Web-footer {
-		padding: 30px 20px;
-	}
-	.py-Newsletter-box {
-		margin-left: 0 !important;
-		margin-top: 50px;
-	}
-	.newsletter-boxs {
-		flex-direction: column;
-		.py_TryItNow {
-			margin-left: 0;
-		}
-	}
-	.py_Web-Form {
-		.py_form-content {
-			padding: 20px;
-		}
-	}
+  .latest {
+    margin-top: 50px !important;
+  }
+  .modernize {
+    margin-top: 40px !important;
+    .title {
+      margin-bottom: 0 !important;
+    }
+  }
+  .py_Web-section-msps {
+    .title {
+      font-size: 45px;
+    }
+    .numbers {
+      font-size: 76px;
+      line-height: 62px;
+    }
+    padding: 40px 20px 40px 20px;
+  }
+  .py_Web-section-services {
+    .title {
+      font-size: 40px;
+      line-height: 55px;
+    }
+    padding: 40px 20px 40px 20px;
+  }
+  .py_Web-section-modernize {
+    padding: 20px 20px 40px 20px;
+    .title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .py_sliderButtons {
+      flex-direction: column;
+    }
+  }
+  .py_Web-section-single {
+    padding: 20px 20px 40px 20px;
+    .title {
+      font-size: 48px;
+    }
+    .subtitle {
+      font-size: 20px;
+      margin-top: 0;
+    }
+    .numbers {
+      font-size: 40px;
+    }
+    .py_sliderButtons {
+      flex-direction: column;
+    }
+    .service-img {
+      width: 100%;
+    }
+  }
+  .py_Web-slider {
+    padding: 20px 20px 40px 20px;
+    height: 80vh;
+    .py_Slider-content {
+      .py_sliderButtons {
+        flex-direction: column;
+      }
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+  }
+  .nav-pills {
+    justify-content: center;
+  }
+  .py_Web-Teams {
+    padding: 20px 20px 40px 20px;
+  }
+  .tech-img {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .py_Web-Year {
+    padding: 40px 20px 40px 20px;
+    .single-pane {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .content {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .py_Web-Ready {
+    padding: 20px;
+  }
+  .ready-img {
+    margin: 40px 0 !important;
+  }
+  .hide-ready-img {
+    display: none;
+  }
+  .py_Web-footer {
+    padding: 30px 20px;
+  }
+  .py-Newsletter-box {
+    margin-left: 0 !important;
+    margin-top: 50px;
+  }
+  .newsletter-boxs {
+    flex-direction: column;
+    .py_TryItNow {
+      margin-left: 0;
+    }
+  }
+  .py_Web-Form {
+    .py_form-content {
+      padding: 20px;
+    }
+  }
 }

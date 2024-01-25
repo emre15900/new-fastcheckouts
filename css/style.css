@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Alata&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 .py_headerLink {
   color: #000000;
   margin-right: 20px;
@@ -225,15 +226,6 @@
   line-height: 33px;
   color: rgb(15, 32, 74);
 }
-.py_Web-section-services .content {
-  margin-top: 30px;
-  font-family: "Akshar";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgb(15, 32, 74);
-}
 .py_Web-section-services .numbers {
   font-family: "Akshar";
   font-style: normal;
@@ -245,9 +237,11 @@
 }
 .py_Web-section-services .services-box {
   padding: 20px;
-  border: 1px solid rgb(15, 32, 74);
   border-radius: 5px;
   margin-top: 20px !important;
+}
+.py_Web-section-services .services-box img {
+  max-height: 240px;
 }
 .py_Web-section-services .services-box .services-title {
   font-family: "Mulish";
@@ -259,23 +253,21 @@
   margin-bottom: 0;
 }
 .py_Web-section-services .services-box .services-title-2 {
-  font-family: "Akshar";
+  color: #161616;
+  font-family: Akshar;
+  font-size: 25px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 26px;
-  color: #0f204a;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .py_Web-section-services .services-box .content {
-  margin-top: 15px;
-  font-family: "Akshar";
+  color: #161616;
+  font-family: Actor;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #0f204a;
+  line-height: normal;
 }
 
 .py_Web-section-single {
