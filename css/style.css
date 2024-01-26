@@ -709,6 +709,11 @@
   align-items: center;
 }
 
+.about-shape {
+  width: 500px;
+  margin-top: -150px;
+}
+
 @media only screen and (max-width: 768px) {
   .py_Web-slider .title {
     font-size: 30px;
@@ -718,6 +723,10 @@
   }
   .nav.nav-pills .nav-link {
     padding: 0.1rem;
+  }
+  .about-shape {
+    width: 300px;
+    margin-top: 0px;
   }
   .py_headerLink {
     margin-right: 0.8rem;
