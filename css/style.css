@@ -569,6 +569,30 @@
   padding: 90px;
   background: #171717;
 }
+.py_Web-footer .footer-trading-box {
+  margin-top: 2rem;
+}
+.py_Web-footer .footer-trading-box .title {
+  color: #fff;
+  font-family: Actor;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 183.333% */
+  text-transform: uppercase;
+}
+.py_Web-footer .footer-trading-box .content {
+  color: #fff;
+  font-family: Actor;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  text-transform: capitalize;
+  cursor: pointer;
+}
 .py_Web-footer .footer-box-title .title {
   color: #fff;
   font-family: Mulish;
