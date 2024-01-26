@@ -38,6 +38,22 @@
   border: 1px solid #5c86e4;
 }
 
+.py_freeTrial-2 {
+  background-color: transparent;
+  color: rgb(15, 32, 74);
+  border: 1px solid #ffffff;
+  padding: 12px 4rem;
+  border-radius: 5px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+}
+.py_freeTrial-2:hover {
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
+}
+
 .py_Header .logo-text {
   color: #161616;
   font-family: Alata;
@@ -155,6 +171,32 @@
 }
 .py_Web-section-msps .shapes-box {
   margin-top: 3rem;
+}
+.py_Web-section-msps .step-main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.py_Web-section-msps .step-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.py_Web-section-msps .step-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.py_Web-section-msps .step-box .title {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
 }
 .py_Web-section-msps .title {
   color: #fff;

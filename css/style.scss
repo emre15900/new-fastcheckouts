@@ -61,6 +61,21 @@ $background-color_6: #001824;
     border: 1px solid $color_2;
   }
 }
+.py_freeTrial-2 {
+  background-color: $background-color_3;
+  color: $color_7;
+  border: 1px solid #ffffff;
+  padding: 12px 4rem;
+  border-radius: 5px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+  &:hover {
+    background-color: $color_2 !important;
+    border: 1px solid $color_2;
+  }
+}
 .py_Header {
   .logo-text {
     color: $color_4;
@@ -164,6 +179,7 @@ $background-color_6: #001824;
     }
   }
 }
+
 .py_Web-section-msps {
   padding: 140px 50px 80px 50px;
   background-image: url("/images/spaces-bg.png");
@@ -176,6 +192,32 @@ $background-color_6: #001824;
   justify-content: center;
   .shapes-box {
     margin-top: 3rem;
+  }
+  .step-main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .step-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    .title {
+      color: #fff;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 1000;
+      line-height: normal;
+    }
   }
   .title {
     color: $color_5;
@@ -438,7 +480,6 @@ $background-color_6: #001824;
     line-height: 82px;
     color: $color_6;
   }
-
 }
 .py_sliderButtons {
   display: flex;
