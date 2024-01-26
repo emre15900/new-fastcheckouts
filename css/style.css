@@ -710,6 +710,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .py_Web-slider .title {
+    font-size: 30px;
+  }
+  .py_Web-slider .content {
+    font-size: 15px;
+  }
+  .nav.nav-pills .nav-link {
+    padding: 0.1rem;
+  }
+  .py_headerLink {
+    margin-right: 0.8rem;
+  }
   .latest {
     margin-top: 50px !important;
   }
@@ -723,18 +735,30 @@
     padding: 40px 20px 40px 20px;
   }
   .py_Web-section-msps .title {
-    font-size: 45px;
+    font-size: 25px;
   }
   .py_Web-section-msps .numbers {
     font-size: 76px;
     line-height: 62px;
   }
+  .py_Web-section-msps .content {
+    font-size: 14px;
+  }
   .py_Web-section-services {
     padding: 40px 20px 40px 20px;
   }
   .py_Web-section-services .title {
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .py_Web-section-services .services-box .content {
+    font-size: 18px;
+  }
+  .py_Web-section-services .services-box .services-title-2 {
+    font-size: 22px;
+  }
+  .py_Web-section-services .services-box {
+    padding: 0;
   }
   .py_Web-section-modernize {
     padding: 20px 20px 40px 20px;
@@ -746,15 +770,33 @@
   .py_Web-section-modernize .py_sliderButtons {
     flex-direction: column;
   }
+  .py_Web-section-single .services-box {
+    padding: 0;
+  }
+  .py_Web-section-msps .step-box {
+    flex-direction: column;
+  }
+  .py_Web-section-msps .step-box .title {
+    font-size: 24px;
+  }
+  .webinar-img img {
+    margin-top: 3rem;
+  }
+  .py_Web-section-single .first-title {
+    margin-bottom: 3rem;
+  }
   .py_Web-section-single {
     padding: 20px 20px 40px 20px;
   }
   .py_Web-section-single .title {
-    font-size: 48px;
+    font-size: 25px;
   }
   .py_Web-section-single .subtitle {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0;
+  }
+  .py_Web-section-single .webinar {
+    display: none;
   }
   .py_Web-section-single .numbers {
     font-size: 40px;
@@ -768,10 +810,6 @@
   .py_Web-slider {
     padding: 20px 20px 40px 20px;
     height: 80vh;
-  }
-  .py_Web-slider .py_Slider-content {
-    margin-top: 50px;
-    margin-bottom: 40px;
   }
   .py_Web-slider .py_Slider-content .py_sliderButtons {
     flex-direction: column;

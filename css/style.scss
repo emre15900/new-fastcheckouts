@@ -723,6 +723,18 @@ $background-color_6: #001824;
   align-items: center;
 }
 @media only screen and (max-width: 768px) {
+  .py_Web-slider .title {
+    font-size: 30px;
+  }
+  .py_Web-slider .content {
+    font-size: 15px;
+  }
+  .nav.nav-pills .nav-link {
+    padding: 0.1rem;
+  }
+  .py_headerLink {
+    margin-right: 0.8rem;
+  }
   .latest {
     margin-top: 50px !important;
   }
@@ -734,7 +746,7 @@ $background-color_6: #001824;
   }
   .py_Web-section-msps {
     .title {
-      font-size: 45px;
+      font-size: 25px;
     }
     .numbers {
       font-size: 76px;
@@ -742,12 +754,24 @@ $background-color_6: #001824;
     }
     padding: 40px 20px 40px 20px;
   }
+  .py_Web-section-msps .content {
+    font-size: 14px;
+  }
   .py_Web-section-services {
     .title {
-      font-size: 40px;
-      line-height: 55px;
+      font-size: 25px;
+      line-height: 36px;
     }
     padding: 40px 20px 40px 20px;
+  }
+  .py_Web-section-services .services-box .content {
+    font-size: 18px;
+  }
+  .py_Web-section-services .services-box .services-title-2 {
+    font-size: 22px;
+  }
+  .py_Web-section-services .services-box {
+    padding: 0;
   }
   .py_Web-section-modernize {
     padding: 20px 20px 40px 20px;
@@ -759,14 +783,34 @@ $background-color_6: #001824;
       flex-direction: column;
     }
   }
+  .py_Web-section-single .services-box {
+    padding: 0;
+  }
+  .py_Web-section-msps .step-box{
+    flex-direction: column;
+  }
+  .py_Web-section-msps .step-box .title{
+    font-size: 24px;
+  }
+  .webinar-img {
+    img {
+      margin-top: 3rem;
+    }
+  }
+  .py_Web-section-single .first-title {
+    margin-bottom: 3rem;
+  }
   .py_Web-section-single {
     padding: 20px 20px 40px 20px;
     .title {
-      font-size: 48px;
+      font-size: 25px;
     }
     .subtitle {
-      font-size: 20px;
+      font-size: 15px;
       margin-top: 0;
+    }
+    .webinar {
+      display: none;
     }
     .numbers {
       font-size: 40px;
@@ -785,8 +829,6 @@ $background-color_6: #001824;
       .py_sliderButtons {
         flex-direction: column;
       }
-      margin-top: 50px;
-      margin-bottom: 40px;
     }
   }
   .nav-pills {
