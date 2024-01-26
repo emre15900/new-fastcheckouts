@@ -46,6 +46,21 @@ $background-color_6: #001824;
     background-color: $background-color_2 !important;
   }
 }
+.py_freeTrial {
+  background-color: $background-color_3;
+  color: $color_7;
+  border: 1px solid rgb(15, 32, 74);
+  padding: 12px 4rem;
+  border-radius: 5px;
+  border-radius: 30px;
+  color: #000000;
+  font-weight: 800;
+  text-decoration: none;
+  &:hover {
+    background-color: $color_2 !important;
+    border: 1px solid $color_2;
+  }
+}
 .py_Header {
   .logo-text {
     color: $color_4;
@@ -223,6 +238,7 @@ $background-color_6: #001824;
 .py_Web-section-services {
   padding: 80px 50px;
   background: rgb(255, 255, 255);
+
   .services-title {
     display: flex;
     justify-content: center;
@@ -293,29 +309,80 @@ $background-color_6: #001824;
 }
 .py_Web-section-single {
   padding: 80px 50px;
-  background-image: url("/images/services-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  .title {
-    font-family: $font-family_3;
+  background: #edf1f8;
+  .services-box {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    .services-title-2 {
+      color: #161616;
+      font-family: Akshar;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    .content {
+      color: #161616;
+      font-family: Actor;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .webinar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: end;
+    justify-content: end;
+    text-align: center;
+    .first-titles {
+      color: #000;
+      font-family: Akshar;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-right: 2rem;
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+  .first-title {
+    color: #000;
+    font-family: Akshar;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 66px;
-    text-transform: uppercase;
-    color: $color_3;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 8rem;
+  }
+
+  .title {
+    color: #161616;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
   }
   .subtitle {
-    margin-top: 30px;
-    font-family: $font-family_3;
+    color: #161616;
+    text-align: justify;
+    font-family: Mulish;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 33px;
-    color: $color_3;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2.5rem;
   }
   .content {
-    margin-top: 30px;
     font-family: $font-family_3;
     font-style: normal;
     font-weight: 400;
@@ -330,37 +397,6 @@ $background-color_6: #001824;
     font-size: 60px;
     line-height: 82px;
     color: $color_6;
-  }
-  .services-box {
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    margin-top: 20px !important;
-    .services-title {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: $color_3;
-      margin-bottom: 0;
-    }
-    .services-title-2 {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: $color_7;
-    }
-    .content {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 18px;
-      color: $color_3;
-    }
   }
 }
 .py_Web-section-modernize {
@@ -402,37 +438,7 @@ $background-color_6: #001824;
     line-height: 82px;
     color: $color_6;
   }
-  .services-box {
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    margin-top: 20px !important;
-    .services-title {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: $color_3;
-      margin-bottom: 0;
-    }
-    .services-title-2 {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      color: $color_7;
-    }
-    .content {
-      font-family: $font-family_6;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 18px;
-      color: $color_3;
-    }
-  }
+
 }
 .py_sliderButtons {
   display: flex;

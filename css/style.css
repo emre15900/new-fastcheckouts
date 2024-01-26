@@ -22,6 +22,22 @@
   background-color: #91aff0 !important;
 }
 
+.py_freeTrial {
+  background-color: transparent;
+  color: rgb(15, 32, 74);
+  border: 1px solid rgb(15, 32, 74);
+  padding: 12px 4rem;
+  border-radius: 5px;
+  border-radius: 30px;
+  color: #000000;
+  font-weight: 800;
+  text-decoration: none;
+}
+.py_freeTrial:hover {
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
+}
+
 .py_Header .logo-text {
   color: #161616;
   font-family: Alata;
@@ -272,30 +288,80 @@
 
 .py_Web-section-single {
   padding: 80px 50px;
-  background-image: url("/images/services-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #edf1f8;
 }
-.py_Web-section-single .title {
-  font-family: "Akshar";
+.py_Web-section-single .services-box {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px !important;
+}
+.py_Web-section-single .services-box .services-title-2 {
+  color: #161616;
+  font-family: Akshar;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.py_Web-section-single .services-box .content {
+  color: #161616;
+  font-family: Actor;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 66px;
-  text-transform: uppercase;
-  color: #ffffff;
+  line-height: normal;
+}
+.py_Web-section-single .webinar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: end;
+  justify-content: end;
+  text-align: center;
+}
+.py_Web-section-single .webinar .first-titles {
+  color: #000;
+  font-family: Akshar;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+.py_Web-section-single .webinar img {
+  cursor: pointer;
+}
+.py_Web-section-single .first-title {
+  color: #000;
+  font-family: Akshar;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 8rem;
+}
+.py_Web-section-single .title {
+  color: #161616;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
 }
 .py_Web-section-single .subtitle {
-  margin-top: 30px;
-  font-family: "Akshar";
+  color: #161616;
+  text-align: justify;
+  font-family: Mulish;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 33px;
-  color: #ffffff;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2.5rem;
 }
 .py_Web-section-single .content {
-  margin-top: 30px;
   font-family: "Akshar";
   font-style: normal;
   font-weight: 400;
@@ -310,37 +376,6 @@
   font-size: 60px;
   line-height: 82px;
   color: #66ff84;
-}
-.py_Web-section-single .services-box {
-  padding: 20px;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  margin-top: 20px !important;
-}
-.py_Web-section-single .services-box .services-title {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: #ffffff;
-  margin-bottom: 0;
-}
-.py_Web-section-single .services-box .services-title-2 {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: rgb(15, 32, 74);
-}
-.py_Web-section-single .services-box .content {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
 }
 
 .py_Web-section-modernize {
@@ -382,37 +417,6 @@
   font-size: 60px;
   line-height: 82px;
   color: #66ff84;
-}
-.py_Web-section-modernize .services-box {
-  padding: 20px;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  margin-top: 20px !important;
-}
-.py_Web-section-modernize .services-box .services-title {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: #ffffff;
-  margin-bottom: 0;
-}
-.py_Web-section-modernize .services-box .services-title-2 {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: rgb(15, 32, 74);
-}
-.py_Web-section-modernize .services-box .content {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
 }
 
 .py_sliderButtons {
