@@ -115,8 +115,8 @@
   font-weight: 800;
 }
 .py_Web-slider .py_sliderButtons .py_freeTrial:hover {
-  background-color: #00d95f !important;
-  border: 1px solid #00d95f;
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
 }
 
 .py_Web-Teams {
@@ -154,8 +154,8 @@
   border-radius: 30px !important;
 }
 .py_Web-Teams .py_sliderButtons .py_freeTrial:hover {
-  background-color: #00d95f !important;
-  border: 1px solid #00d95f;
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
 }
 
 .py_Web-section-msps {
@@ -221,7 +221,7 @@
   font-weight: 400;
   font-size: 100px;
   line-height: 110px;
-  color: #66ff84;
+  color: #5c86e4;
   margin-top: 30px;
 }
 .py_Web-section-msps .services-box {
@@ -290,7 +290,7 @@
   font-weight: 400;
   font-size: 100px;
   line-height: 110px;
-  color: #66ff84;
+  color: #5c86e4;
   margin-top: 30px;
 }
 .py_Web-section-services .services-box {
@@ -417,7 +417,7 @@
   font-weight: 400;
   font-size: 60px;
   line-height: 82px;
-  color: #66ff84;
+  color: #5c86e4;
 }
 
 .py_Web-section-modernize {
@@ -458,7 +458,7 @@
   font-weight: 400;
   font-size: 60px;
   line-height: 82px;
-  color: #66ff84;
+  color: #5c86e4;
 }
 
 .py_sliderButtons {
@@ -474,8 +474,8 @@
   border-radius: 5px;
 }
 .py_sliderButtons .py_freeTrial:hover {
-  background-color: #00d95f !important;
-  border: 1px solid #00d95f;
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
 }
 
 .py_Web-Year {
@@ -522,8 +522,8 @@
   border-radius: 30px !important;
 }
 .py_Web-Year .py_sliderButtons .py_freeTrial:hover {
-  background-color: #00d95f !important;
-  border: 1px solid #00d95f;
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
 }
 
 .py_Web-Ready {
@@ -561,13 +561,22 @@
   border-radius: 5px;
 }
 .py_Web-Ready .py_sliderButtons .py_freeTrial:hover {
-  background-color: #00d95f !important;
-  border: 1px solid #00d95f;
+  background-color: #5c86e4 !important;
+  border: 1px solid #5c86e4;
 }
 
 .py_Web-footer {
   padding: 90px;
-  background-color: #001824;
+  background: #171717;
+}
+.py_Web-footer .footer-box-title .title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  text-transform: lowercase;
 }
 .py_Web-footer .title {
   color: #ffffff;
@@ -576,7 +585,7 @@
   color: #ffffff;
 }
 .py_Web-footer .py-link {
-  color: #00d95f;
+  color: #5c86e4;
   text-decoration: none;
 }
 .py_Web-footer .py-Newsletter-box {

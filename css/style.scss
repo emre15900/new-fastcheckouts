@@ -3,11 +3,11 @@ $color_2: #5c86e4;
 $color_3: #ffffff;
 $color_4: #161616;
 $color_5: #fff;
-$color_6: #66ff84;
+$color_6: #5c86e4;
 $color_7: rgb(15, 32, 74);
 $color_8: #0f204a;
 $color_9: #001824;
-$color_10: #00d95f;
+$color_10: #5c86e4;
 $color_11: rgb(116, 116, 116);
 $font-family_1: Alata;
 $font-family_2: Akshar;
@@ -19,7 +19,7 @@ $font-family_7: "Adamina";
 $background-color_1: #5c86e4;
 $background-color_2: #91aff0;
 $background-color_3: transparent;
-$background-color_4: #00d95f;
+$background-color_4: #5c86e4;
 $background-color_5: #fff6ef;
 $background-color_6: #001824;
 
@@ -136,7 +136,7 @@ $background-color_6: #001824;
       font-weight: 800;
       &:hover {
         background-color: $background-color_4 !important;
-        border: 1px solid #00d95f;
+        border: 1px solid #5c86e4;
       }
     }
   }
@@ -174,7 +174,7 @@ $background-color_6: #001824;
       border-radius: 30px !important;
       &:hover {
         background-color: $background-color_4 !important;
-        border: 1px solid #00d95f;
+        border: 1px solid #5c86e4;
       }
     }
   }
@@ -193,13 +193,13 @@ $background-color_6: #001824;
   .shapes-box {
     margin-top: 3rem;
   }
-  .step-main-box{
+  .step-main-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .step-title{
+  .step-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -493,7 +493,7 @@ $background-color_6: #001824;
     border-radius: 5px;
     &:hover {
       background-color: $background-color_4 !important;
-      border: 1px solid #00d95f;
+      border: 1px solid #5c86e4;
     }
   }
 }
@@ -539,7 +539,7 @@ $background-color_6: #001824;
       border-radius: 30px !important;
       &:hover {
         background-color: $background-color_4 !important;
-        border: 1px solid #00d95f;
+        border: 1px solid #5c86e4;
       }
     }
   }
@@ -577,14 +577,25 @@ $background-color_6: #001824;
       border-radius: 5px;
       &:hover {
         background-color: $background-color_4 !important;
-        border: 1px solid #00d95f;
+        border: 1px solid #5c86e4;
       }
     }
   }
 }
 .py_Web-footer {
   padding: 90px;
-  background-color: $background-color_6;
+  background: #171717;
+  .footer-box-title {
+    .title {
+      color: #fff;
+      font-family: Mulish;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 1000;
+      line-height: normal;
+      text-transform: lowercase;
+    }
+  }
   .title {
     color: $color_3;
   }
