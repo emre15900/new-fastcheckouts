@@ -28,6 +28,11 @@ $background-color_6: #001824;
 @import "https://fonts.googleapis.com/css2?family=Alata&display=swap";
 @import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 
+.active-item a {
+  color: $color_2;
+  font-weight: 700;
+}
+
 .py_headerLink {
   color: $color_1;
   margin-right: 20px;
@@ -737,11 +742,39 @@ $background-color_6: #001824;
   margin-top: -150px;
 }
 
+.features-services {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  img {
+    max-width: 300px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .trading-bg {
     background-image: url("/images/slider-bg.png");
     background-size: contain;
     height: 70vh !important;
+  }
+  .features-slider {
+    padding: 0 !important;
+    height: 43vh !important;
+  }
+  .py_Web-section-services {
+    margin-top: -7rem;
+  }
+  .features-services {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    img {
+      margin-top: 2rem;
+    }
+  }
+
+  .content-img-box {
+    margin-top: 4rem;
   }
   .trading-content {
     margin-top: 0rem !important;

@@ -2,6 +2,11 @@
 @import "https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Archivo:wght@500;600;700;900&family=Mulish:wght@300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Alata&display=swap";
 @import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+.active-item a {
+  color: #5c86e4;
+  font-weight: 700;
+}
+
 .py_headerLink {
   color: #000000;
   margin-right: 20px;
@@ -724,11 +729,38 @@
   margin-top: -150px;
 }
 
+.features-services {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.features-services img {
+  max-width: 300px;
+}
+
 @media only screen and (max-width: 768px) {
   .trading-bg {
     background-image: url("/images/slider-bg.png");
     background-size: contain;
     height: 70vh !important;
+  }
+  .features-slider {
+    padding: 0 !important;
+    height: 43vh !important;
+  }
+  .py_Web-section-services {
+    margin-top: -7rem;
+  }
+  .features-services {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .features-services img {
+    margin-top: 2rem;
+  }
+  .content-img-box {
+    margin-top: 4rem;
   }
   .trading-content {
     margin-top: 0rem !important;
