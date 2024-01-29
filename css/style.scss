@@ -40,6 +40,19 @@ $background-color_6: #001824;
     color: $color_2;
   }
 }
+
+.py_loginit{
+  background-color: $background-color_1 !important;
+  padding: 9px 2rem;
+  margin-left: 10px;
+  border-radius: 30px !important;
+  color: $color_3 !important;
+  font-weight: 800;
+  &:hover {
+    background-color: $background-color_2 !important;
+  }
+}
+
 .py_TryItNow {
   background-color: $background-color_1 !important;
   padding: 10px 4rem;

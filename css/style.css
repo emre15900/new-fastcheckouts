@@ -15,6 +15,18 @@
   color: #5c86e4;
 }
 
+.py_loginit {
+  background-color: #5c86e4 !important;
+  padding: 9px 2rem;
+  margin-left: 10px;
+  border-radius: 30px !important;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+.py_loginit:hover {
+  background-color: #91aff0 !important;
+}
+
 .py_TryItNow {
   background-color: #5c86e4 !important;
   padding: 10px 4rem;
