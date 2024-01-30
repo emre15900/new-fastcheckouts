@@ -59,11 +59,13 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
                 >+254811231053</a
               >
             </li> -->
-            <li class="nav-item">
-              <a href="/" class="nav-link py_headerLink">Trading Markets</a>
+            <li class="nav-item active-item">
+              <a href="/" class="nav-link py_headerLink">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/" class="nav-link py_headerLink">Trading Tools</a>
+              <a href="./trading-platform.html" class="nav-link py_headerLink"
+                >Trading Platforms</a
+              >
             </li>
             <li class="nav-item">
               <a href="./features.html" class="nav-link py_headerLink"
@@ -72,11 +74,6 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
             </li>
             <li class="nav-item">
               <a href="./about.html" class="nav-link py_headerLink">About us</a>
-            </li>
-            <li class="nav-item">
-              <a href="./trading-platform.html" class="nav-link py_headerLink"
-                >Trading Platforms</a
-              >
             </li>
             <li class="nav-item">
               <a href="./contact" class="nav-link py_headerLink">Contact</a>
@@ -445,28 +442,29 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
               fastcheckouts
             </h2>
             <div class="footer-box-title">
-              <p class="title">
+              <p class="title mb-5">
                 Stay Focused, <br />
                 Stay Driven
               </p>
-              <!-- <p class="content">
+              <p class="content">
                 <strong>Address: </strong>
                 <a
                   class="py-link"
                   href="address:Mombasa Maldini Highway, building: 197/Bombolulu"
-                  >Mombasa Maldini Highway, building: 197/Bombolulu</a
-                >
-              </p> -->
-              <p class="content">
-                <strong>Email: </strong>
-                <a class="py-link" href="mail:info@fastcheckouts.com"
-                  >info@fastcheckouts.com</a
+                  >Plot No/Building Name LAIBONI CENTER Street/Road LENANA ROAD
+                  Town/County NAIROBI Postal Address 2126 Post Code 80100</a
                 >
               </p>
-              <!-- <p class="content">
+              <p class="content">
+                <strong>Email: </strong>
+                <a class="py-link" href="mail:admin@fastcheckouts.com"
+                  >admin@fastcheckouts.com</a
+                >
+              </p>
+              <p class="content">
                 <strong>Telephone: </strong>
-                <a class="py-link" href="tel:+254811231053">+254811231053</a>
-              </p> -->
+                <a class="py-link" href="tel:+254702732570">+254702732570</a>
+              </p>
             </div>
           </div>
           <div class="col-sm-12 col-md-8">
