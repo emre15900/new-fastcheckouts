@@ -765,6 +765,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .py_loginit {
+    padding: 3px 2rem !important;
+  }
+  .py_logout {
+    padding: 3px 2rem !important;
+  }
   .trading-bg {
     background-image: url("/images/slider-bg.png");
     background-size: contain;
