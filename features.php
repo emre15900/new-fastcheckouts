@@ -1,9 +1,21 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
+require 'constants.php';
+session_start();
+
+$user = empty($_SESSION['user']) ? false : $_SESSION['user'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="TechFordem" />
+    <meta name="description" content="Fastcheckouts" />
     <meta name="keywords" content="Payecards" />
     <title>Fastcheckouts | Features</title>
     <link
@@ -48,37 +60,37 @@
               >
             </li> -->
             <li class="nav-item">
-              <a href="/" class="nav-link py_headerLink">Trading Markets</a>
+              <a href="/" class="nav-link py_headerLink">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/" class="nav-link py_headerLink">Trading Tools</a>
+              <a href="./trading-platform.php" class="nav-link py_headerLink"
+                >Trading Platforms</a
+              >
             </li>
             <li class="nav-item active-item">
-              <a href="./features.html" class="nav-link py_headerLink"
+              <a href="./features.php" class="nav-link py_headerLink"
                 >Features</a
               >
             </li>
             <li class="nav-item">
-              <a href="./about.html" class="nav-link py_headerLink">About us</a>
+              <a href="./about.php" class="nav-link py_headerLink">About us</a>
             </li>
             <li class="nav-item">
-              <a href="./trading-platform.html" class="nav-link py_headerLink"
-                >Trading Platforms</a
-              >
+              <a href="./contact.php" class="nav-link py_headerLink">Contact</a>
             </li>
+            <?php if($user): ?>
             <li class="nav-item">
-              <a href="./contact.html" class="nav-link py_headerLink"
-                >Contact</a
+              <a href="<?= BASE_URL; ?>/logout.php" class="nav-link py_logout"
+                >Logout</a
               >
             </li>
-            <!-- <li class="nav-item">
-              <a
-                href="./login.html"
-                class="nav-link active py_TryItNow"
-                aria-current="page"
-                >Try it now</a
+            <?php else: ?>
+            <li class="nav-item">
+              <a href="<?= BASE_URL; ?>/login.php" class="nav-link py_loginit"
+                >Login</a
               >
-            </li> -->
+            </li>
+            <?php endif; ?>
           </ul>
         </header>
       </div>

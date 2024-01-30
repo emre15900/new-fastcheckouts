@@ -15,7 +15,7 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="TechFordem" />
+    <meta name="description" content="Fastcheckouts" />
     <meta name="keywords" content="Payecards" />
     <title>Fastcheckouts</title>
     <link
@@ -63,20 +63,20 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
               <a href="/" class="nav-link py_headerLink">Home</a>
             </li>
             <li class="nav-item">
-              <a href="./trading-platform.html" class="nav-link py_headerLink"
+              <a href="./trading-platform.php" class="nav-link py_headerLink"
                 >Trading Platforms</a
               >
             </li>
             <li class="nav-item">
-              <a href="./features.html" class="nav-link py_headerLink"
+              <a href="./features.php" class="nav-link py_headerLink"
                 >Features</a
               >
             </li>
             <li class="nav-item">
-              <a href="./about.html" class="nav-link py_headerLink">About us</a>
+              <a href="./about.php" class="nav-link py_headerLink">About us</a>
             </li>
             <li class="nav-item">
-              <a href="./contact" class="nav-link py_headerLink">Contact</a>
+              <a href="./contact.php" class="nav-link py_headerLink">Contact</a>
             </li>
             <?php if($user): ?>
               <li class="nav-item">
@@ -324,7 +324,7 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
                 trading to the next level with FXT Navigator
               </p>
               <a
-                href="./login.html"
+                href="./login.php"
                 class="py_freeTrial"
                 aria-current="page"
                 >Get started</a
@@ -422,7 +422,7 @@ $user = empty($_SESSION['user']) ? false : $_SESSION['user'];
               </div>
               <div class="step-main-box">
                 <a
-                  href="./login.html"
+                  href="./login.php"
                   class="py_freeTrial-2 mt-5"
                   aria-current="page"
                   >Get started</a
