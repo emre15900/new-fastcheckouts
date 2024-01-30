@@ -40,19 +40,30 @@ $background-color_6: #001824;
     color: $color_2;
   }
 }
-
-.py_loginit{
+.py_loginit {
   background-color: $background-color_1 !important;
-  padding: 9px 2rem;
+  padding: 7px 3rem;
   margin-left: 10px;
   border-radius: 30px !important;
   color: $color_3 !important;
-  font-weight: 800;
+  font-weight: 600;
   &:hover {
     background-color: $background-color_2 !important;
   }
 }
-
+.py_logout {
+  border: 2px solid $background-color_1 !important;
+  background-color: transparent;
+  padding: 7px 3rem;
+  margin-left: 10px;
+  border-radius: 30px !important;
+  color: $background-color_1 !important;
+  font-weight: 600;
+  &:hover {
+    background-color: $background-color_4 !important;
+    color: #ffffff !important;
+  }
+}
 .py_TryItNow {
   background-color: $background-color_1 !important;
   padding: 10px 4rem;
